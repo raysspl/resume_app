@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+		<style>
+			.root {
+				background: grey;
+				padding: 40px;
+			}
+			.inner {
+				background: blue;
+				padding: 40px;
+			}
+			.box {
+				background: red;
+				padding: 40px;
+				margin: 10px 0;
+			}
+		</style>
+
+		<script>
+	 		$(document).ready(function(){
+/*
+	 			$('body').click(function() {
+	 				console.log('body click', this);
+	 			});
+*/
+	 			$('.inner').click(doInnerClick);
+	 			function doInnerClick(event) {
+	 				$(this).animate ({
+	 					'borderRadius': '50%'
+	 				});
+	 			}
+	 			$('.box').bind('click', function(event) {
+	 				if(event.altKey) {
+	 					radius=0;
+	 				} else {
+	 					radius='50%';
+	 				}
+	 				$(this).animate ({
+	 					'borderRadius': radius
+	 				});
+	 				return false;
+	 			});
+	 		});
+		</script>
+	</head>
+	<body>
+		<div>
+			<div class="root">
+				<div class="inner">
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+				</div>
+				<div class="inner">
+					<div class="box"></div>
+					<div class="box"></div>
+					<div class="box"></div>
+				</div>
+		</div>
+	</body>
+</html>

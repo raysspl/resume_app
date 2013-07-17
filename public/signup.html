@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>	
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style2.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link href='http://fonts.googleapis.com/css?family=Freckle+Face' rel='stylesheet' type='text/css'>
+
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/signup.js"></script>
+	</head>
+	
+	<body>
+		<div id="container">
+		<form id="userDataForm">
+			<fieldset>
+				<legend><h1>Add your resume</h1></legend>
+				
+				<label for="signup_name">First Name</label>
+				<input id="first_name" type="text" placeholder="e.x. RayRay"/>
+
+				<label for="signup_name">Last Name</label>
+				<input id="last_name" type="text" placeholder="e.x. Dipasupil"/>
+				<span class="help-block">Your name is your primary identifier, yeeeezy fo sheezy</span>
+
+				<label for="signup_name">Street</label>
+				<input type="text" id="street" placeholder="e.x. 123 YOLO Street"/>
+
+				<label for="signup_name">City</label>
+				<input type="text" id="city" placeholder="e.x. City of Angels"/>
+
+				<label for="signup_name">State</label>
+				<input type="text" id="state" placeholder="e.x. LoCAL, IA, FL, etc."/>
+
+				<label for="signup_name">Email</label>
+				<input type="text" id="email" placeholder="e.x. yolo@swerv.com"/>
+
+				<div class="school">
+					<label>School</label>
+					<input type="text" id="school" placeholder="e.x. LMU" />
+					<label>Degree</label>
+					<input type="text" id="degree" placeholder="e.x. Econ, Accounting" />
+				</div>
+				<span class="help-block">
+					<a href="#" class="education_block_add">
+						+ Add Another School
+					</a>
+				</span>
+				
+				<div class="skills">
+					<label>Skills</label>
+					<input type="text" id="skillz" placeholder="e.x. swervin'"/>
+				</div>
+				<span class="help-block">
+					<a href="#" class="skills_block_add">
+						+ Add Another Skill
+					</a>
+				</span>
+				<div class="experience">
+					<label>Experience</label>
+					<input type="text" id="experience" placeholder="e.x. Financial Analyst"/> 
+				</div>
+				<span class="help-block">
+					<a href="#" class="experience_block_add">
+						+ Add Another Experience
+					</a>
+				</span>
+				
+				<label for="signup_name">Certifications [if any]</label>
+				<input type="text" id="certz" placeholder="e.x. FSAE"/>
+
+				<div class="shoutOutz">
+					<label>Additional Comments</label>
+					<input type="text" id="addCommntz" placeholder="e.x. Holler @ yo boy"/>
+				</div> 
+
+				<button type="submit" class="btn">Save &amp; Continue</button>
+
+				<button type="delete" class="dlt">Delete</button>
+			</fieldset>	
+		</form>
+	</div>
+	</body>
+</html>

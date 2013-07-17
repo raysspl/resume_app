@@ -1,0 +1,30 @@
+#container {
+	background-image: url("http://www.tunersandmodels.com/wp/wp-content/uploads/2010/10/darth-vader-in-ariel-atom.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+#userDataForm {
+	margin: 0 auto;
+	margin-left: 30px;
+	width: 500px;
+	background: rgba(255, 255, 65, 0.5);	
+	height: auto; 
+	box-shadow: 10px 10px 5px black;
+	border: 2px solid #a1a1a1;
+	border-radius: 25px;
+	padding: 20px 0 0 10px;
+	color: black;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	-o-column-count: 2;
+	column-count: 2;
+}
+
+body {
+	font-family: 'Freckle Face';
+	font-style: normal;
+  	font-weight: 400;
+}
+

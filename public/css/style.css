@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Marmelad);
+
+
+/*.Name {
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+
+.Name, .Address, .number {
+	top: auto;
+	text-align: center;
+	color: red;
+}
+
+.Address .number {
+	padding-top: 15px;
+	font-size: 30px;
+}
+
+.pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.pic1 {
+	margin: 50px;
+	width: 22em;
+	position: relative;
+	left: 20px;
+}
+
+img.pic2 {
+	width: 24em;
+	position: relative;
+	top: -15px;
+}
+
+img.pic3 {
+	width: 20em;
+	position: relative;
+	top: 8px;
+	left: -5px;
+}
+
+img.pic4 {
+	width: 22em;
+	position: relative;
+	top: 8px;
+	left: -9px;
+}
+
+/*.banner {
+	position: relative;
+	background-color: black;
+	top: 0;
+	height: 200px;
+	width: 100%;
+	top: absolute;
+	left: absolute;
+	margin-bottom: 175px;
+}*/
+
+/*body {
+	color: maroon;
+	margin-left: 25px;
+	text-shadow: 1px 1px black;
+	position: relative;
+	margin: 15px;
+	top: 15px;
+	height:80px;
+	width: 100%;
+		
+}
+
+body:hover {
+	color: white;
+}
+
+body {
+	background-image: url('http://www.tunersandmodels.com/wp/wp-content/uploads/2010/10/darth-vader-in-ariel-atom.jpg');
+	background-size: 100%;
+	background-position: relative;
+	background-attachment: scroll;
+	padding-bottom: 61%; 
+}
+
+.Name, .Address, .number, li, ul {
+	font-family: "Marmelad";
+}
+
+p {
+	font-size: 30px;
+	font-family: "Marmelad";
+	position: relative;
+	margin: 15px;
+	top: 15px;
+	padding: 3px;
+	height:25px;
+	width: 95%;
+	background: rgba(255, 255, 65, 0.5);
+	border-radius: 10px;
+	border: 2px black solid;
+	box-shadow: 10px 2px 5px black;
+}
+
+li {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.Experience, .School, .Activities {
+	padding: relative;
+	font-style: normal;
+	font-size: 20px;
+}
+
+fieldset {
+	position: relative;
+	padding: 50px;
+}
+*/
